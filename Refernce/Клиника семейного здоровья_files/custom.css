@@ -1,0 +1,43 @@
+.reception-modal__wrap{
+    align-items: center;
+}
+.capabilities__swipe {
+	width: 34px;
+	height: 34px;
+	display: none;
+}
+.header-address_mobile {
+	display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1250px) {
+
+}
+@media (max-width: 1010px) {
+
+}
+@media (max-width: 760px) {
+	.capabilities__swipe {
+		display: block;
+		margin: 30px auto 0px;
+	}
+	.header-address {
+		display: none;
+	}
+	.header-address_mobile {
+		display: block;
+	}
+	.header-address__desc {
+	    padding: 15px 20px;
+	    width: 175px;
+	}
+}
+
+
+
+
